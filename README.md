@@ -14,7 +14,7 @@ The main file is `etl.py`, where all the ETL process is done. But for it to work
 And all the queries are in the `sql_queries.py` file. 
 For test purposed we have the `test.ipynb`, so that we can check if the tables are being written on.
 
-In summary, for it to work, you need to first run 'create_tables.py' to create the database and connect to it, and then the 'etl.py'. And to further verify if everything is ok, we run the 'test.ipynb' file.
+In summary, for it to work, you need to first run `create_tables.py` to create the database and connect to it, and then the 'etl.py'. And to further verify if everything is ok, we run the 'test.ipynb' file.
 
 ### Project files:
 
