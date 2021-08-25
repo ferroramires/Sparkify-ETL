@@ -8,7 +8,7 @@ They'd like a data engineer to create a Postgres database with tables designed t
 
 ### Project Description
 
-In this project, I/'ve created an ETL pipeline for Sparkify/'s song a log data sets. 
+In this project, I've created an ETL pipeline for Sparkify's song a log data sets. 
 
 The main file is `etl.py`, where all the ETL process is done. But for it to work, I created the `create_tables.py` file to create a basic star schema for the data sets.
 And all the queries are in the `sql_queries.py` file. 
