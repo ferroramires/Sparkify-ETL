@@ -10,9 +10,9 @@ They'd like a data engineer to create a Postgres database with tables designed t
 
 In this project, I/'ve created an ETL pipeline for Sparkify/'s song a log data sets. 
 
-The main file is 'etl.py', where all the ETL process is done. But for it to work, I created the 'create_tables.py' file to create a basic star schema for the data sets.
-And all the queries are in the 'sql_queries.py' file. 
-For test purposed we have the 'test.ipynb', so that we can check if the tables are being written on.
+The main file is `etl.py`, where all the ETL process is done. But for it to work, I created the `create_tables.py` file to create a basic star schema for the data sets.
+And all the queries are in the `sql_queries.py` file. 
+For test purposed we have the `test.ipynb`, so that we can check if the tables are being written on.
 
 In summary, for it to work, you need to first run 'create_tables.py' to create the database and connect to it, and then the 'etl.py'. And to further verify if everything is ok, we run the 'test.ipynb' file.
 
